@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老年病人压疮护理研究专题网站</title>
+    <meta name="description" content="老年病人压疮护理研究专题网站 - 提供最新的压疮护理研究成果、数据可视化和专业资源">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>压疮护理研究</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="#news" class="nav-link">最新动态</a></li>
+                <li class="nav-item"><a href="#papers" class="nav-link">最新成果</a></li>
+                <li class="nav-item"><a href="#charts" class="nav-link">数据可视化</a></li>
+                <li class="nav-item"><a href="#resources" class="nav-link">资源库</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页 -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>老年病人压疮护理研究</h1>
+                <p class="hero-subtitle">专业、科学、实用的压疮预防与护理解决方案</p>
+                <div class="hero-content">
+                    <div class="intro-text">
+                        <h2>研究背景与意义</h2>
+                        <p>压疮（压力性损伤）是老年病人常见的并发症，严重影响患者的生活质量和康复进程。随着人口老龄化加剧，压疮的预防和治疗已成为医疗护理领域的重要课题。</p>
+                        <p>本专题网站致力于整合国内外最新研究成果，提供科学的压疮护理方案，促进医护人员的专业交流，提升老年病人的护理质量。</p>
+                    </div>
+                    <div class="stats-overview">
+                        <div class="stat-item">
+                            <h3>8+</h3>
+                            <p>最新研究成果</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2</h3>
+                            <p>专业数据图表</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>实用资源下载</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新动态 -->
+    <section id="news" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">最新动态</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <h3>2024年全国老年护理学术会议</h3>
+                    <p class="news-date">2024年3月15日</p>
+                    <p>会议聚焦老年压疮预防新技术，多位专家分享临床实践经验。</p>
+                    <a href="https://www.nhc.gov.cn/" target="_blank" class="news-link">查看详情 →</a>
+                </article>
+                <article class="news-card">
+                    <h3>《老年病人压疮护理指南》更新发布</h3>
+                    <p class="news-date">2024年2月28日</p>
+                    <p>新版指南增加了风险评估工具和预防措施推荐等级。</p>
+                    <a href="https://www.cma.org.cn/" target="_blank" class="news-link">下载指南 →</a>
+                </article>
+                <article class="news-card">
+                    <h3>国际压疮预防协会年度报告</h3>
+                    <p class="news-date">2024年1月20日</p>
+                    <p>报告显示新型敷料和体位管理技术显著降低压疮发生率。</p>
+                    <a href="https://www.npuap.org/" target="_blank" class="news-link">阅读报告 →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新成果 -->
+    <section id="papers" class="section">
+        <div class="container">
+            <h2 class="section-title">最新研究成果</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="chinese">中文论文</button>
+                <button class="filter-btn" data-filter="english">英文论文</button>
+            </div>
+            <div id="papers-container" class="papers-grid">
+                <!-- 论文内容将通过JavaScript动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据可视化 -->
+    <section id="charts" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">数据可视化分析</h2>
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h3>压疮发生率随年龄变化</h3>
+                    <canvas id="ageChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>干预护理前后压疮发生率对比</h3>
+                    <canvas id="interventionChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 资源库 -->
+    <section id="resources" class="section">
+        <div class="container">
+            <h2 class="section-title">资源库</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>📚 临床指南</h3>
+                    <ul>
+                        <li><a href="https://www.who.int/" target="_blank">WHO压疮预防指南</a></li>
+                        <li><a href="https://www.nhc.gov.cn/" target="_blank">国家卫健委护理规范</a></li>
+                        <li><a href="https://www.cma.org.cn/" target="_blank">中华医学会推荐方案</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>🎥 教学视频</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/" target="_blank">压疮风险评估演示</a></li>
+                        <li><a href="https://www.bilibili.com/" target="_blank">体位管理技巧</a></li>
+                        <li><a href="https://v.qq.com/" target="_blank">敷料更换操作</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>📄 工具表格</h3>
+                    <ul>
+                        <li><a href="https://example.com/braden-scale.pdf" target="_blank">Braden评分表</a></li>
+                        <li><a href="https://example.com/norton-scale.pdf" target="_blank">Norton评分表</a></li>
+                        <li><a href="https://example.com/waterlow-scale.pdf" target="_blank">Waterlow评分表</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>🔬 研究资料</h3>
+                    <ul>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank">PubMed文献库</a></li>
+                        <li><a href="https://www.cnki.net/" target="_blank">中国知网数据库</a></li>
+                        <li><a href="https://www.wanfangdata.com.cn/" target="_blank">万方数据知识库</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 - 关于我们 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="team-info">
+                    <h3>制作团队</h3>
+                    <p><strong>制作人：</strong>张三（组长，学号 202012345678）</p>
+                    <p><strong>成员：</strong>李四（学号 202012345679）、王五（学号 202012345680）、赵六（学号 202012345681）</p>
+                </div>
+                <div class="contact-info">
+                    <h3>联系我们</h3>
+                    <p>邮箱：pressureulcer@example.com</p>
+                    <p>电话：+86-123-4567-8900</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 老年病人压疮护理研究专题网站. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+</html>

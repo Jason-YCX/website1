@@ -1,0 +1,39 @@
+{
+  "agePressureUlcerData": {
+    "labels": ["60-65岁", "66-70岁", "71-75岁", "76-80岁", "81-85岁", "86-90岁", "90岁以上"],
+    "datasets": [
+      {
+        "label": "压疮发生率 (%)",
+        "data": [8.2, 12.5, 18.3, 24.7, 31.2, 38.6, 45.1],
+        "backgroundColor": "rgba(30, 136, 229, 0.6)",
+        "borderColor": "rgba(30, 136, 229, 1)",
+        "borderWidth": 2
+      }
+    ]
+  },
+  "interventionComparisonData": {
+    "labels": ["常规护理", "体位管理", "营养支持", "综合干预", "智能监测"],
+    "datasets": [
+      {
+        "label": "干预前压疮发生率 (%)",
+        "data": [25.3, 24.8, 23.7, 26.1, 25.9],
+        "backgroundColor": "rgba(244, 67, 54, 0.6)",
+        "borderColor": "rgba(244, 67, 54, 1)",
+        "borderWidth": 2
+      },
+      {
+        "label": "干预后压疮发生率 (%)",
+        "data": [22.1, 15.3, 18.2, 9.7, 8.4],
+        "backgroundColor": "rgba(76, 175, 80, 0.6)",
+        "borderColor": "rgba(76, 175, 80, 1)",
+        "borderWidth": 2
+      }
+    ]
+  },
+  "trendData": {
+    "years": [2018, 2019, 2020, 2021, 2022, 2023],
+    "hospitalIncidence": [28.5, 26.3, 24.8, 22.1, 19.7, 17.2],
+    "nursingHomeIncidence": [35.2, 32.8, 30.1, 27.4, 24.9, 22.3],
+    "homeCareIncidence": [18.7, 17.2, 16.1, 14.8, 13.5, 12.1]
+  }
+}

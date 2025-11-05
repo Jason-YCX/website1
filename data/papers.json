@@ -1,0 +1,100 @@
+{
+  "papers": [
+    {
+      "id": 1,
+      "title": "老年住院患者压疮风险评估及预防护理策略研究",
+      "authors": "张明, 李华, 王芳",
+      "year": 2023,
+      "source": "中华护理杂志",
+      "language": "chinese",
+      "abstract": "本研究通过对500例老年住院患者进行压疮风险评估，探讨了有效的预防护理策略。结果显示，综合护理干预可显著降低压疮发生率，提高患者生活质量。",
+      "onlineLink": "https://www.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=ZHHL202301001",
+      "pdfLink": "https://example.com/paper1.pdf",
+      "category": "临床研究"
+    },
+    {
+      "id": 2,
+      "title": "不同体位管理对老年卧床患者压疮预防效果的系统评价",
+      "authors": "刘伟, 陈静, 赵强",
+      "year": 2023,
+      "source": "中国实用护理杂志",
+      "language": "chinese",
+      "abstract": "系统评价了12项随机对照试验，比较不同体位管理方法对压疮预防的效果。研究发现，30度侧卧位结合气垫床使用效果最佳。",
+      "onlineLink": "https://www.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=ZGSY202302015",
+      "pdfLink": "https://example.com/paper2.pdf",
+      "category": "系统评价"
+    },
+    {
+      "id": 3,
+      "title": "基于物联网技术的智能压疮监测系统设计与应用",
+      "authors": "王磊, 张敏, 李勇",
+      "year": 2022,
+      "source": "护理学杂志",
+      "language": "chinese",
+      "abstract": "设计开发了一套基于压力传感器的智能监测系统，能够实时监测患者体位压力分布，为压疮预防提供数据支持。临床应用显示系统有效可靠。",
+      "onlineLink": "https://www.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=HLXZ202204008",
+      "pdfLink": "https://example.com/paper3.pdf",
+      "category": "技术应用"
+    },
+    {
+      "id": 4,
+      "title": "老年痴呆患者压疮护理的特殊挑战与对策",
+      "authors": "陈芳, 刘明, 王华",
+      "year": 2023,
+      "source": "中华现代护理杂志",
+      "language": "chinese",
+      "abstract": "针对老年痴呆患者压疮护理的特殊性，提出了个性化的护理方案。重点强调了沟通技巧、行为管理和家属参与的重要性。",
+      "onlineLink": "https://www.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=XDHZ202303012",
+      "pdfLink": "https://example.com/paper4.pdf",
+      "category": "专科护理"
+    },
+    {
+      "id": 5,
+      "title": "Pressure Ulcer Prevention in Older Adults: A Systematic Review and Meta-Analysis",
+      "authors": "Smith, J., Johnson, A., Brown, K.",
+      "year": 2023,
+      "source": "Journal of Advanced Nursing",
+      "language": "english",
+      "abstract": "This systematic review and meta-analysis evaluated the effectiveness of pressure ulcer prevention strategies in older adults. Results showed significant reduction in pressure ulcer incidence with comprehensive prevention programs.",
+      "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/12345678/",
+      "pdfLink": "https://example.com/paper5.pdf",
+      "category": "Systematic Review"
+    },
+    {
+      "id": 6,
+      "title": "Innovative Technologies for Pressure Injury Monitoring in Geriatric Care",
+      "authors": "Wilson, R., Davis, M., Thompson, P.",
+      "year": 2023,
+      "source": "Journal of Gerontological Nursing",
+      "language": "english",
+      "abstract": "This study explores the application of novel sensor technologies for real-time pressure injury monitoring in geriatric patients. The technology demonstrated high accuracy in predicting pressure injury risk.",
+      "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/23456789/",
+      "pdfLink": "https://example.com/paper6.pdf",
+      "category": "Technology"
+    },
+    {
+      "id": 7,
+      "title": "Nutritional Interventions for Pressure Ulcer Prevention in Frail Elderly: A Randomized Controlled Trial",
+      "authors": "Garcia, L., Martinez, S., Lee, J.",
+      "year": 2022,
+      "source": "Clinical Nutrition",
+      "language": "english",
+      "abstract": "This RCT investigated the effects of specialized nutritional supplementation on pressure ulcer prevention in frail elderly patients. The intervention group showed significantly lower pressure ulcer incidence.",
+      "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/34567890/",
+      "pdfLink": "https://example.com/paper7.pdf",
+      "category": "Nutrition"
+    },
+    {
+      "id": 8,
+      "title": "Economic Evaluation of Pressure Ulcer Prevention Programs in Long-Term Care Facilities",
+      "authors": "Chen, W., Park, S., Anderson, R.",
+      "year": 2023,
+      "source": "Health Economics Review",
+      "language": "english",
+      "abstract": "This economic analysis compared the cost-effectiveness of different pressure ulcer prevention programs in long-term care settings. Comprehensive prevention programs were found to be cost-effective.",
+      "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/45678901/",
+      "pdfLink": "https://example.com/paper8.pdf",
+      "category": "Health Economics"
+    }
+  ]
+}
